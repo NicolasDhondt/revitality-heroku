@@ -6,13 +6,7 @@ body {
 }
 
 app-top-bar {
-  background-color: #90c490;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:center;
   font-size: 22px;
-  padding-top: 1.5em;
 }
 
 app-opinion{

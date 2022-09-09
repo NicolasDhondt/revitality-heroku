@@ -1,5 +1,12 @@
 .space {
-  margin-left: 3em;
+  margin-left: 2em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: #90c490;
+  padding: 1em;
 }
 
 h1 {
@@ -7,14 +14,12 @@ h1 {
   font-size: 70px;
 }
 
-mat-toolbar-row {
+ul {
+  display: flex;
+  background-color: #90c490;
+  padding: 0.5em;
   margin-bottom: 1em;
-}
-
-span {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
+  list-style-type: none;
 }
 
 a {
@@ -49,9 +54,10 @@ a:visited {
 }
 
 img{
-  position: absolute;
+  position:absolute;
+  top: 0;
   right: 0;
-  margin-top: 1.2em;
-  margin-right: 1em;
-  width: 13%;
+  margin-top: 0.1em;
+  margin-right: 0.5em;
+  width: 2.5em;
 }
