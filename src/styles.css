@@ -2,11 +2,11 @@ body {
   margin: 0;
   color: #3a4249;
   background-color: #FBFCFA !important;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 app-top-bar {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 app-opinion{

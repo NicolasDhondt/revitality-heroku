@@ -1,5 +1,5 @@
 .space{
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .title {
@@ -51,13 +51,4 @@ a:visited {
 #underline:hover:after {
   width: 100%;
   background: #444;
-}
-
-img{
-  position:absolute;
-  top: 0;
-  right: 0;
-  margin-top: 0.1em;
-  margin-right: 0.5em;
-  width: 2.5em;
 }
