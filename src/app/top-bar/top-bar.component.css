@@ -25,6 +25,7 @@ a {
 
 a:hover {
   opacity: 0.85;
+  color: #3a4249;
   text-decoration: none;
 }
 
