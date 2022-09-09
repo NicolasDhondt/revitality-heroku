@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
 
+  isMenuOpen = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toggleMenu(): void{
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }

@@ -1,4 +1,4 @@
-.space {
+.space{
   margin-left: 2em;
 }
 
@@ -11,14 +11,14 @@
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 ul {
   display: flex;
   background-color: #90c490;
   padding: 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   list-style-type: none;
 }
 
