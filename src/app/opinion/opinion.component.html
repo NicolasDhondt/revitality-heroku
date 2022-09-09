@@ -1,0 +1,12 @@
+<div class="center">
+  <h2>VOS AVIS</h2>
+</div>
+
+<div *ngFor="let opinion of opinions" class="opinion">
+  <div class="card border-dark">
+    <h3 class="card-header">{{ opinion.name }} {{ opinion.firstName }}</h3>
+    <div class="card-body">
+      <p id="desc" class="card-text">{{ opinion.description }}</p>
+    </div>
+  </div>
+</div>
